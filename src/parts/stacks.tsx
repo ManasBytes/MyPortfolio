@@ -19,6 +19,7 @@ import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { SplitText } from "gsap/SplitText";
 import { TextPlugin } from "gsap/TextPlugin";
+import { useEffect } from "react";
 
 gsap.registerPlugin(useGSAP,Draggable,InertiaPlugin,MotionPathPlugin,MorphSVGPlugin,Physics2DPlugin,ScrollTrigger,ScrollSmoother,ScrollToPlugin,SplitText,TextPlugin,RoughEase,ExpoScaleEase,SlowMo,CustomEase,CustomBounce,CustomWiggle);
 
@@ -27,9 +28,40 @@ gsap.registerPlugin(useGSAP,Draggable,InertiaPlugin,MotionPathPlugin,MorphSVGPlu
 
 const Stack = () => {
     return(
-        <>
-        <h1>This is Stack</h1>
-        </>
+        <section id ="Stacks">
+        <div className="h-screen w-screen bg-amber-500">
+        <h1>This is Stack</h1> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        </div>
+        </section>
     )
 }
 

@@ -26,9 +26,40 @@ gsap.registerPlugin(useGSAP,Draggable,InertiaPlugin,MotionPathPlugin,MorphSVGPlu
 
 const Home = () => {
     return(
-        <>
+        <section id="Home">
+        <div className="h-screen w-screen bg-amber-500">
         <h1>This is home</h1>
-        </>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
+        </div>
+        </section>
     )
 }
 
