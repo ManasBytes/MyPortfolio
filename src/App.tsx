@@ -1,8 +1,9 @@
 import AppLayout from "./layout/AppLayout"
+import Home from "./parts/home"
 const App = () => {
     return (
         <>
-            <AppLayout/>
+            <Home/>
         </>
     )
 }

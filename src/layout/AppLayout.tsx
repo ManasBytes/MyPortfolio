@@ -32,26 +32,15 @@ gsap.registerPlugin(useGSAP,Draggable,InertiaPlugin,MotionPathPlugin,MorphSVGPlu
 
 
 const AppLayout = () => {
-    useEffect(()=> {
-        ScrollSmoother.create({
-            wrapper: "#this",
-            content: "#isthe",
-            smooth: 5,
-            effects: true,
-            smoothTouch: 0.1,
-        })
-    },[]);
+    
     return(
         <>
             <NavBar/> 
-        <div id="this">
-        <div id="isthe">
         <Home/>
         <About/>
         <Stack/>
         <Projects/>
-        <Connect/></div>
-        </div>
+        <Connect/>
 
         
         </>

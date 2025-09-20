@@ -1,5 +1,6 @@
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
+import Observer from "gsap-trial/Observer";
 
 import { CustomEase } from "gsap/CustomEase";
 // CustomBounce requires CustomEase
@@ -20,45 +21,69 @@ import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { SplitText } from "gsap/SplitText";
 import { TextPlugin } from "gsap/TextPlugin";
 
-gsap.registerPlugin(useGSAP,Draggable,InertiaPlugin,MotionPathPlugin,MorphSVGPlugin,Physics2DPlugin,ScrollTrigger,ScrollSmoother,ScrollToPlugin,SplitText,TextPlugin,RoughEase,ExpoScaleEase,SlowMo,CustomEase,CustomBounce,CustomWiggle);
+gsap.registerPlugin(useGSAP,Draggable,InertiaPlugin,MotionPathPlugin,MorphSVGPlugin,Physics2DPlugin,ScrollTrigger,ScrollSmoother,ScrollToPlugin,SplitText,TextPlugin,RoughEase,ExpoScaleEase,SlowMo,CustomEase,CustomBounce,CustomWiggle,Observer);
 
 
 
 const Home = () => {
     return(
         <section id="Home">
-        <div className="h-screen w-screen bg-amber-500">
-        <h1>This is home</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt? <br />
-        </div>
+            <header>
+                <div>Animated Section</div>
+                <div>Original Inspiration</div>
+            </header>
+
+
+            <section id="first">
+                <div id="outer">
+                    <div id="inner">
+                        <div id="bg-one">
+                            <h2 id = "section-heading"> Scroll Down</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="second">
+                <div id="outer">
+                    <div id="inner">
+                        <div id="bg">
+                            <h2 id = "section-heading"> Animation with GSAP</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="third">
+                <div id="outer">
+                    <div id="inner">
+                        <div id="bg">
+                            <h2 id = "section-heading"> Greensock</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="fourth">
+                <div id="outer">
+                    <div id="inner">
+                        <div id="bg">
+                            <h2 id = "section-heading"> Animation Platform</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="fifth">
+                <div id="outer">
+                    <div id="inner">
+                        <div id="bg">
+                            <h2 id = "section-heading"> Keep Scrolling</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
         </section>
     )
 }

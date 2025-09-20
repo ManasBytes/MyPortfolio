@@ -25,18 +25,18 @@ gsap.registerPlugin(useGSAP,Draggable,InertiaPlugin,MotionPathPlugin,MorphSVGPlu
 const NavBar = () => {
     return(
         <>
-        <div className="h-fit  w-screen gap-20 backdrop-blur-mdblur bg-gray-400 text-white flex justify-center align-middle fixed z-20"> 
-
+        <div id="main-nav" className="h-fit w-screen flex justify-center align-middle z-22">
         
 
-        
+       <div id="navbar" className="flex h-fit w-fit m-2 p-4 gap-10 rounded-xl justify-center text-gray-200 bg-white/10 border-white/20 backdrop-blur-md fixed z-22" >
             <div id="navElement1"><a href="#Home">Home</a></div>
             <div id="navElement2"><a href="#About">About</a></div>
             <div id="navElement3"><a href="#Stacks">Stacks</a></div>
             <div id="navElement4"><a href="#Projects">Projects</a></div>
             <div id="navElement5"><a href="#Connect">Connect</a></div>
-           
-       </div>
+            </div>
+        </div>
+
         </>
     )
 }
